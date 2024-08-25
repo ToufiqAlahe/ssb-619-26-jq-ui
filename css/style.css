@@ -1,0 +1,96 @@
+/* ex1*/ 
+#draggable1 { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; }
+}
+/*ex2*/
+#draggable2 { 
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding: 0.5em; 
+	/* float: left;*/
+	margin: 10px 10px 10px 0; 
+}
+#droppable2 { 
+	display: block;
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	/* float: left;*/
+	margin: 10px; 
+}
+
+/*ex3*/
+#resizable3 { 
+	width: 150px;
+	height: 150px;
+	padding: 0.5em; 
+}
+#resizable3 h3 { 
+	text-align: center;
+	margin: 0; 
+}
+
+/*ex4*/
+#feedback { 
+	font-size: .8em; 
+}
+#selectable .ui-selecting {
+	background: #FECA40;
+}
+#selectable .ui-selected { 
+	background: #F39814; 
+	color: white;
+}
+#selectable { 
+	list-style-type: none;
+	margin: 5px; 
+	padding: 0.5em; 
+	width: 60%; 
+}
+#selectable li { 
+	margin: 5px; 
+	padding: 0.5em; 
+	font-size: .8em; 
+	height: 24px; 
+}
+
+/*ex5*/
+#sortable { 
+	list-style-type: none; 
+	margin: 0; padding: 0; 
+	width: 60%; 
+}
+#sortable li { 
+	margin: 0 5px 8px 5px; 
+	padding: 0.5em; 
+	padding-left: .8em; 
+	font-size: .8em; 
+	height: 24px; 
+}
+#sortable li span { 
+	position: absolute; 
+	margin-left: -1.3em; 
+}
+
+/*ex10*/
+.ui-controlgroup-vertical {
+  width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+  text-align: center;
+}
+#car-type-button {
+  width: 120px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+  width: 20px;
+}
+
+/*ex13*/
+.ui-menu { 
+	width: 150px; 
+}
