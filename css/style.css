@@ -6,7 +6,6 @@
 }
 /*ex2*/
 #draggable2 { 
-	display: block;
 	width: 100px;
 	height: 100px;
 	padding: 0.5em; 
@@ -14,7 +13,6 @@
 	margin: 10px 10px 10px 0; 
 }
 #droppable2 { 
-	display: block;
 	width: 150px;
 	height: 150px;
 	padding: 0.5em;
